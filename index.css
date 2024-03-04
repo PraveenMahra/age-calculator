@@ -113,3 +113,25 @@ button:hover {
 .label-error-color {
   color: #f39192;
 }
+
+@media (max-width: 610px) {
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .year-label {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  form {
+    grid-template-columns: auto;
+    place-items: center;
+  }
+
+  .age-calculator {
+    padding: 2rem;
+  }
+}
