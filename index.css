@@ -28,7 +28,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
 
@@ -133,7 +133,12 @@ button:hover {
 
 @media (max-width: 450px) {
   body {
-    text-align: start;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    background-color: #ffffff;
+    width: 100%;
   }
 
   form {
